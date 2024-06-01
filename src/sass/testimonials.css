@@ -1,0 +1,24 @@
+.testimonials h1 {
+    color: #222;
+}
+
+.testimonials {
+    padding: 1vh 10vw;
+    display: flex;
+    margin: 5rem 0;
+}
+
+.testimonials-right {
+    width: 50%;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .testimonials {
+        flex-direction: column;
+    }
+
+    .testimonials-right {
+        width: 100%;
+    }
+}

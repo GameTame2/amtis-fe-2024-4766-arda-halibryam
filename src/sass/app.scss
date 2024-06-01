@@ -1,1 +1,61 @@
-// Продължи с твоя SCSS или обикновен CSS код тук.
+:root {
+    --main: #FDF6E6;
+    --lightgreen: #C4F0E6;
+    --darkgreen: #458C92;
+    --orange: #EB955A;
+    --brown: #9B582E;
+}
+
+#app {
+    overflow: hidden;
+}
+
+body {
+    background-color: #FDF8EC;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+.landing h1 {
+    color: var(--brown);
+}
+
+h1, h2, h3 {
+    font-family: 'Noto Serif';
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    padding: 30px 0;
+}
+
+header a {
+    color: var(--brown);
+    font-weight: 600;
+}
+
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+
+nav {
+    display: flex;
+    column-gap: 15px;
+}
+
+@media only screen and (max-width: 1200px) {
+    nav {
+        flex-direction: column;
+        font-size: 14px;
+        text-align: right;
+    }
+}

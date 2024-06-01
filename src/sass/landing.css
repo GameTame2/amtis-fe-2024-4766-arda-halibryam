@@ -1,0 +1,50 @@
+.landing {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 20vw;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 80px;
+    margin-bottom: 30px;
+}
+
+.h1-brown {
+    color: #533019;
+}
+
+.landing p {
+    line-height: 26.1px;
+}
+
+.landing-buttons {
+    margin-top: 25px;
+    font-weight: 600px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+#landing-button-one, #landing-button-two {
+    padding: 10px;
+    border: 2px solid #9B582E;
+    border-radius: 25px;
+    font-size: 18px;
+}
+
+#landing-button-one {
+    background-color: #9B582E;
+    color: #fff;
+}
+
+#landing-button-two {
+    color: #CA7111;
+}
+
+@media only screen and (max-width: 1200px) {
+    h1 {
+        font-size: 40px;
+    }
+}

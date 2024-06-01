@@ -1,0 +1,35 @@
+.chef {
+    display: flex;
+    justify-content: center;
+}
+
+.chef-container {
+    display: flex;
+    column-gap: 5vw;
+    width: 80%;
+}
+
+.chef-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 75%;
+}
+
+.chef h1 {
+    color: #222222;
+}
+
+@media only screen and (max-width: 1200px) {
+    .chef-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .chef-right {
+        justify-content: center;
+        align-items: center;
+    }
+}
