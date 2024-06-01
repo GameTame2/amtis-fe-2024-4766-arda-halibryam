@@ -1,5 +1,5 @@
 .form {
-    background-color: #FBF4DF;
+    background-color: #fbf4df;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -35,15 +35,15 @@
 }
 
 .form-right {
-    background-color: #F9EECD;
+    background-color: #f9eecd;
     padding: 3rem 1rem;
     border-radius: 15px;
 }
 
 #form-right-cta {
     padding: 10px;
-    border: 2px solid #9B582E;
-    background-color: #9B582E;
+    border: 2px solid #9b582e;
+    background-color: #9b582e;
     color: #fff;
     border-radius: 25px;
     margin-top: 25px;
